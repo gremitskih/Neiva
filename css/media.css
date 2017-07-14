@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+	p {
+		font-size: 1.2em;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-indent: 0px;
+	}
+	h3 {
+		text-indent: 0px;
+	}
+	p.spoiler {
+		font-size: 1.2em;
+	}
+	.right-fact {
+		padding-top: 20px;
+	}
+	.right-fact p.right-spoiler {
+		margin-top: 0px !important;
+	}
+}

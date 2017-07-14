@@ -1,0 +1,209 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+img.icons {
+  margin: 35px 0;
+}
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+h2 {
+  font-family: 'Source Sans Pro';
+  color:  #060606;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+}
+h3 {
+  font-family: 'Source Sans Pro';
+  color:  #060606;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-indent: 15px;
+}
+p {
+  font-family: 'Source Sans Pro';
+  color:  #060606;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-indent: 15.009px;
+}
+p.spoiler,
+p.right-spoiler {
+  color:  #060606;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+p.right-spoiler {
+  background: url(http://i.imgur.com/fHPtLL0.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  margin-top: 50px;
+  padding-top: 60px !important;;
+  background-color: #edfafc;
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.spoiler-title{
+  cursor:pointer;
+  text-decoration: underline;
+}
+p.spoiler-title {
+  font-weight: bold;
+}
+.spoiler-body
+{
+  display:none;background:#edfafc;
+}
+.right-fact {
+  padding-top: 50px;
+}
+header {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.first-chapter {
+  margin-top: 20px;
+}
+.first-num {
+  background: url(http://i.imgur.com/EjaL2N4.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.second-num {
+  background: url(http://i.imgur.com/Y56rT36.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.third-num {
+  background: url(http://i.imgur.com/G4n81Zx.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.fourth-num {
+  background: url(http://i.imgur.com/t3Nybv9.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.fifth-num {
+  background: url(http://i.imgur.com/B4XkJmA.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.sixth-num {
+  background: url(http://i.imgur.com/rRyV60x.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.seventh-num {
+  background: url(http://i.imgur.com/gguqD7J.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.eights-num {
+  background: url(http://i.imgur.com/dDNbPuf.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.ninth-num {
+  background: url(http://i.imgur.com/dBlJR8D.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.tenth-num {
+  background: url(http://i.imgur.com/3LJQviE.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.eleventh-num {
+  background: url(http://i.imgur.com/GaeX0VA.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.first-blue {
+  background: url(http://i.imgur.com/bysIYS2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.second-blue{
+  background: url(http://i.imgur.com/q6TsTEu.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.third-blue {
+  background: url(http://i.imgur.com/LyfVyoZ.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.fourth-blue {
+  background: url(http://i.imgur.com/OlV8fvg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.fifth-blue {
+  background: url(http://i.imgur.com/LGByifR.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.sixth-blue {
+  background: url(http://i.imgur.com/VUFcD17.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.second-chapter {
+  margin-top: 50px;
+}
+#citata1 {
+  margin-bottom: -60px;
+  margin-top: 25px;
+}
+#citata2,
+#citata3{
+  margin: 25px 0;
+}
+img.arrow {
+  width: 10%;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.text-padding {
+  padding-top: 60px;
+}
+.text-padding2 {
+  padding-top: 25px;
+}
+p.list {
+  text-indent: 15px;
+}
+.fa-check {
+  color: #d21455;
+}
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-indent: 0px;
+  }
+  h3 {
+    text-indent: 0px;
+  }
+  p.spoiler {
+    font-size: 1.2em;
+  }
+  .right-fact {
+    padding-top: 20px;
+  }
+  .right-fact p.right-spoiler {
+    margin-top: 0px !important;
+  }
+}
